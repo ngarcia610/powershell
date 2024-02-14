@@ -1,5 +1,6 @@
-# Make sure winrm is enabled on the target host
+# Returns basic information about a device
 
+# Make sure winrm is enabled on the target host
 # Ask for a host name
 $server = Read-Host -Prompt "Enter a host name: (Default: localhost)"
 
